@@ -40,9 +40,13 @@ public class MathPowSymbol extends Symbol {
 }
 然后我们就要通知我们Calculator中的symbolManager，我们自定义了一个新的运算符，要添加进去
 例如
+
 public static void main(String[] args) {
 		Calculator calculator = new Calculator();
 		calculator.getSymbolManager().add(new MathPowSymbol());
 		calculator.handleStr("(2+3.2)+Math.pow(3,2)*(40-5+(-1)*4)");
 	}
-  然后就可以了，扩展非常简单
+
+ 然后就可以了，扩展非常简单
+ 
+ 博客地址：http://www.cnblogs.com/pig-brother/p/7398274.html
