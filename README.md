@@ -1,5 +1,5 @@
 # calculate
-java字符串转算术表达式，并且计算出结果，能自定义自己要的运算符，扩展性好
+java字符串转算术表达式，并且计算出结果，能自定义自己要的运算符，扩展性好,符合设计原则中的开关闭原则还有里氏替换原则，主要使用的设计模式是策略者模式
 调用非常方便，示例代码
 public static void main(String[] args) {
 		Calculator calculator = new Calculator();
